@@ -1,3 +1,5 @@
+import './styles.css'
+
 const app = document.querySelector('#app')
 const startBtn = document.querySelector('#start')
 const screens = document.querySelectorAll('.screen')

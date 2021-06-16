@@ -8,9 +8,11 @@ body {
   color: #fff;
   font-family: 'Khula', sans-serif;
   height: 100vh;
+  width: 100%;
   overflow: hidden;
   margin: 0;
   text-align: center;
+  user-select: none;
 }
 
 a {
@@ -93,7 +95,7 @@ h1 {
   box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
   border-radius: 30px;
   overflow: hidden;
-  margin-bottom: 2rem;
+  margin: 0 1rem 1rem 2rem;
 }
 
 .circle {
@@ -108,4 +110,17 @@ font-size: 1.5rem;
   padding: 0.8rem;
   box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
   border-radius: 30px;
+}
+
+@media (max-width:  575.98px){
+  .board {
+    width: 90%;
+    height: 90vh;
+  }
+  .start-over {
+    font-size: 1.5rem;
+    margin: 0 0 2rem 0;
+
+  }
+
 }
