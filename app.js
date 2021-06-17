@@ -17,11 +17,11 @@ startBtn.addEventListener('click', (e) => {
     screens[0].classList.add('up')
 })
 
-restartBtn.addEventListener('click', (e) => {
+// restartBtn.addEventListener('click', (e) => {
 
-    document.location.reload()
+  //   document.location.reload()
 
-})
+// })
 
 timeList.addEventListener('click', e => {
     if (e.target.classList.contains('time-btn')) {
