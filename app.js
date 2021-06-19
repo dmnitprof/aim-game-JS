@@ -91,7 +91,7 @@ function getRandomNumber(min, max) {
 function setColor(element) {
     const color = getRandomColor()
     element.style.background = color
-    element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color++}`
+    element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color + 1}`
 }
 
 function getRandomColor() {
