@@ -90,12 +90,19 @@ function getRandomNumber(min, max) {
 
 function setColor(element) {
     const color = getRandomColor()
+    const color2 =  getRandomColor2()
     element.style.background = color
-    element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color + 1}`
+    element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color2}`
 }
 
 function getRandomColor() {
     const index = Math.floor(Math.random() * colors.length)
+    return colors[index]
+
+}
+
+function getRandomColor2() {
+    const index = Math.floor(Math.random() * (colors.length - 1))
     return colors[index]
 
 }
