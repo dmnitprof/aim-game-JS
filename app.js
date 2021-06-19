@@ -92,7 +92,7 @@ function setColor(element) {
     const color = getRandomColor()
     const color2 =  getRandomColor2()
     element.style.background = color
-    element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color2}`
+    element.style.boxShadow = `0 0 2px ${color2}, 0 0 10px ${color2}`
 }
 
 function getRandomColor() {
