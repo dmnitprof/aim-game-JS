@@ -18,7 +18,6 @@ startBtn.addEventListener('click', (e) => {
 })
 
 restartBtn.addEventListener('click', () => {
-
     document.location.reload()
 
 })
