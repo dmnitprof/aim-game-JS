@@ -17,11 +17,11 @@ startBtn.addEventListener('click', (e) => {
     screens[0].classList.add('up')
 })
 
-restartBtn.addEventListener('click', (e) => {
+// restartBtn.addEventListener('click', (e) => {
 
-    document.location.reload()
+  //   document.location.reload()
 
-})
+// })
 
 timeList.addEventListener('click', e => {
     if (e.target.classList.contains('time-btn')) {
@@ -70,7 +70,7 @@ function finishGame() {
 
 function createRandomCircle() {
     const circle = document.createElement('div')
-    const size = getRandomNumber(10, 60)
+    const size = getRandomNumber(25, 65)
     const {width, height} = board.getBoundingClientRect()
     const x = getRandomNumber(0, width - size)
     const y = getRandomNumber(0, height - size)
