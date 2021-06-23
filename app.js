@@ -5,7 +5,6 @@ const restartBtn = document.querySelector('.start-over')
 const timeList = document.querySelector('#time-list')
 const timeEl = document.querySelector('#time')
 const board = document.querySelector('#board')
-const screen = document.querySelector('.screen')
 
 let time = 0
 let score = 0
@@ -18,7 +17,7 @@ startBtn.addEventListener('click', (e) => {
 })
 
 restartBtn.addEventListener('click', () => {
-    window.location.reload()
+    document.location.reload()
 
 })
 
