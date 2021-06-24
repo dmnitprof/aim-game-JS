@@ -1,4 +1,4 @@
-const app = document.querySelector('#app')
+import '/styles.css'
 const startBtn = document.querySelector('#start')
 const screens = document.querySelectorAll('.screen')
 const restartBtn = document.querySelector('.start-over')
